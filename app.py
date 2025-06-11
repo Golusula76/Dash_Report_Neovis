@@ -22,7 +22,7 @@ app.layout = dmc.MantineProvider(
                 html.Nav(
                     className="sidebar",
                     children=[
-                        dcc.Link(html.Img(className="logoimg", src='/assets/Logo.svg'), href="/"),
+                        dcc.Link(html.Img(className="logoimg", src='/assets/ICON.png'), href="/"),
                       
                         dmc.NavLink(
                             label="Home",
@@ -42,7 +42,7 @@ app.layout = dmc.MantineProvider(
                         html.Header(
                             className="header",
                             children=[
-                                dcc.Link(html.Img(className="logoimg", src='/assets/Full Logo 1.svg'), href="/")
+                                dcc.Link(html.Img(className="logoimg", src='/assets/NAME.png'), href="/")
                             ]
                         ),
                         html.Div(
@@ -56,7 +56,7 @@ app.layout = dmc.MantineProvider(
                             children=[
                                 html.Div(
                                     children=[
-                                        dcc.Link(html.Img(className="logoimg", src='/assets/Full Logo 1.svg'), href="/")
+                                        dcc.Link(html.Img(className="logoimg", src='/assets/NAME.png'), href="/")
                                     ]
                                 ),
                             ]
