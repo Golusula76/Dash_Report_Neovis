@@ -22,7 +22,7 @@ app.layout = dmc.MantineProvider(
                 html.Nav(
                     className="sidebar",
                     children=[
-                        dcc.Link(html.Img(className="logoimg", src='/assets/ICON.png'), href="/"),
+                        dcc.Link(html.Img(className="logoimg2", src='/assets/ICON.png'), href="/"),
                       
                         dmc.NavLink(
                             label="Home",
